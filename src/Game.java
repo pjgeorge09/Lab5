@@ -53,7 +53,7 @@ public class Game {
 	/* Override method for toString
 	 */
 	public String toString() {
-		String toReturn = this.getName() + "-delim-" + this.getDate().getTime() + "-delim" + this.getConsole();
+		String toReturn = this.getName() + "-delim-" + this.getDate().getTime() + "-delim-" + this.getConsole();
 		return toReturn;
 	}
 	
